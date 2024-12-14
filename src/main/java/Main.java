@@ -7,5 +7,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
+
+        if(input.equals("invalid_command"))
+            System.out.println(input + " not found");
     }
 }

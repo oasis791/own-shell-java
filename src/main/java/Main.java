@@ -9,6 +9,6 @@ public class Main {
         String input = scanner.nextLine();
 
         if(input.equals("invalid_command"))
-            System.out.println(input + " not found");
+            System.out.println(input + ": not found");
     }
 }
